@@ -1,0 +1,28 @@
+# Ignore screenshots folder (keep local)
+screenshots/
+
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+
+# IDE folders
+.vscode/
+.idea/
+
+
+# Sensitive DVWA config / logs
+config/config.inc.php
+burp_requests/
+.env
+
+
+# Node / Python artifacts
+node_modules/
+__pycache__/
+*.pyc
+
+
+# Misc logs
+*.log
